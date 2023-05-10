@@ -1,0 +1,136 @@
+/*Importamos fuente de Google Fonts*/
+@import 'https://fonts.googleapis.com/css?family=Lato:400,500,600,700,800';
+
+html{
+    font-family: "Lato", sans-serif;
+    min-width: 300px;
+}
+
+header{
+    text-align: center;
+    font-size: 18px;
+    padding-top: 30px;
+}
+
+#descripcion{
+    margin-top: -20px;
+}
+
+body{
+    background-image: 
+    linear-gradient(180deg, #59443b, rgba(0, 0, 0, 0.4)),
+    url("/imagenes/banners/hero-banner.jpg");
+    background-position:center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+    margin: 0;   
+    box-sizing: border-box;
+    font-size: 1rem;
+    color: aliceblue;
+}
+
+section{
+    max-width: 720px;
+    background-color:rgba(0, 0, 0, 0.5);
+    margin: 0 auto;
+    width: 80vw;
+    padding-bottom: 2em;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+fieldset{
+    padding: 10px 30px;
+    border: none;
+}
+
+label{
+    display: block;
+    margin: 0.5rem 0;
+}
+
+#nombre-label, #apellido-label, #email-label{
+    display: block;
+    align-items: center;
+    font-size: 1.125rem;
+    margin-bottom: 0.5rem;
+    box-sizing: border-box;
+    padding-bottom: 5px;
+}
+
+#nombre, #apellido, #email{
+    display: flex;
+    align-items: center;
+    font-size: 1.125rem;
+    margin-bottom: 0.5rem;
+    box-sizing: border-box;
+    margin-top: 5px;
+    width: 100%;
+    height: 2.4rem;
+}
+
+#opciones-label{
+    display: block;
+    align-items: center;
+    font-size: 1.125rem;
+    margin-bottom: 0.5rem;
+    box-sizing: border-box;
+    padding-bottom: 5px;
+}
+
+#seleccion{
+    display: flex;
+    align-items: center;
+    font-size: 1.125rem;
+    margin-bottom: 0.5rem;
+    box-sizing: border-box;
+    margin-top: 5px;
+    width: 100%;
+    height: 2.4rem;
+}
+
+.sugerencias-label{
+    font-size: 1.125rem;
+}
+
+#sugerencias{
+    display: block;
+    font-size: 1.125rem;
+    width: 100%;
+}
+
+.terminos{
+    font-size: 2.2vh;
+}
+
+#terminos{
+    margin-bottom: 30px;
+}
+
+#submit{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    font-size: 20px;
+    font-family: "Lato", sans-serif;
+    border-radius: 5px;
+    background-image: linear-gradient(#59443b, rgba(0, 0, 0, 0.87));
+    color: #fff;
+    cursor: pointer;
+    outline: 0px;
+}
+
+#submit:hover {
+    background-image: linear-gradient(#ffffff, #59443b);
+    color:  #59443b;
+    font-weight: 600;
+    transition: .5s ease;
+  }
+
+.copyright{
+    text-align: center;
+    margin: 5px 10px;
+}
