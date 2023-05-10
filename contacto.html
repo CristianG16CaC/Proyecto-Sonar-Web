@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contáctanos</title>
+    <link rel="stylesheet" href="/css/contacto-estilos.css">
+</head>
+<body>
+    <header>
+        <h1 id="titulo">Déjanos tu mensaje</h1>
+        <p id="descripcion">Ayúdanos a mejorar nuestros servicios</p>
+    </header>
+    <section>
+        <form id="contacto-form">
+            <fieldset id="datos">
+                <label for="nombre" id="nombre-label">Nombre: <input type="text" id="nombre" placeholder="Ingresa tu Nombre" required></label>
+                <label for="apellido" id="apellido-label">Apellido: <input type="text" id="apellido" placeholder="Ingresa tu Apellido"></label>
+                <label for="email" id="email-label">Correo Electrónico: <input type="email" id="email" placeholder="Ingresa tu Correo Electrónico" required></label>
+                <hr>
+            </fieldset>
+            <fieldset id="opciones">
+                <label id="opciones-label">¿Cómo podemos ayudarte?
+                    <select name="" id="seleccion">
+                        <option value="">Selecciona una opción</option>
+                        <option value="Opcion1">Deseo dejarles una sugerencia...</option>
+                        <option value="Opcion2">Quiero un producto en particular...</option>
+                        <option value="Opcion3">¿Hacen envíos a mi localidad?...</option>
+                        <option value="Opcion4">No recibí mi producto...</option>
+                        <option value="Opcion5">Mi producto no funciona ¿Cómo procedo?</option>
+                        <option value="Opcion6">Me arrepentí de la compra...</option>
+                    </select>
+                    
+            </fieldset>
+            <fieldset>
+                <label class="sugerencias-label">Déjanos tus sugerencias:
+                    <textarea name="sugerencias" id="sugerencias" cols="30" rows="10" placeholder="Escríbenos..."></textarea>    
+                </label>
+            </fieldset>
+            <fieldset>
+                <label class="terminos">
+                    <input type="checkbox" name="terminos" id="terminos" value="terminos" required> Acepto compartir mis datos personales
+                </label>
+                <input type="submit" id="submit" value="Enviar mensaje">
+            </fieldset>
+            <p class="copyright">Sonar © - 2023 - Todos los derechos reservados</p>
+        </form>
+    </section>
+</body>
+</html>
